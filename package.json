@@ -1,0 +1,26 @@
+{
+  "name": "priyanka_portfolio",
+  "version": "1.0.0",
+  "description": "This is a ready-to-use portfolio built with plain HTML and Tailwind CSS (Play CDN).   It was generated from the user's resume (name, experience, projects, contact) to provide a professional dark-mode portfolio you can edit quickly.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priyankawani890/priyanka_portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priyankawani890/priyanka_portfolio/issues"
+  },
+  "homepage": "https://github.com/priyankawani890/priyanka_portfolio#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.10"
+  }
+}

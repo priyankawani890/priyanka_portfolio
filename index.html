@@ -194,19 +194,59 @@
     </section>
 
     <!-- CONTACT -->
-    <section id="contact" class="py-16">
+<section id="contact" class="py-16 bg-gray-900/80">
   <div class="max-w-3xl mx-auto px-6">
-    <h2 class="text-2xl font-semibold">Contact</h2>
-    <p class="mt-2 text-sm text-gray-400">Want to work together?</p>
+    <h2 class="text-3xl font-bold text-white mb-6 text-center">Contact Me</h2>
+    <p class="text-center text-gray-400 mb-8">Want to work together? Send me a message or reach out directly via email or phone.</p>
 
-    <div class="mt-8 text-sm text-gray-400">
-      <p><strong>Email:</strong> priyankawani890@gmail.com</p>
-      <p class="mt-1"><strong>Mobile:</strong> <a href="tel:+918010092397" class="underline">8010092397</a></p>
-      <p class="mt-1"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/priyanka-wani-224193211/" target="_blank" class="underline">linkedin.com/in/priyanka-wani-224193211</a></p>
-      <p class="mt-1"><strong>GitHub:</strong> <a href="https://github.com/priyankawani890" target="_blank" class="underline">github.com/priyankawani890</a></p>
+    <!-- Contact Form -->
+    <form action="https://formspree.io/f/mpwoyvqv" method="POST" class="max-w-md mx-auto bg-gray-800/60 p-8 rounded-2xl ring-1 ring-gray-700 shadow-lg space-y-6">
+      <h3 class="text-xl font-semibold text-white text-center mb-2">Send me a message</h3>
+
+      <!-- Email -->
+      <label class="block text-gray-200">
+        Your email:
+        <input 
+          type="email" 
+          name="email" 
+          required
+          class="mt-1 w-full p-3 rounded bg-gray-900/60 ring-1 ring-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          placeholder="you@example.com"
+        >
+      </label>
+
+      <!-- Message -->
+      <label class="block text-gray-200">
+        Your message:
+        <textarea 
+          name="message" 
+          required
+          rows="5"
+          class="mt-1 w-full p-3 rounded bg-gray-900/60 ring-1 ring-gray-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          placeholder="Write your message here..."
+        ></textarea>
+      </label>
+
+      <!-- Submit button -->
+      <button 
+        type="submit" 
+        class="w-full px-4 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-medium transition-colors duration-200"
+      >
+        Send Message
+      </button>
+    </form>
+
+    <!-- Direct Contact Info -->
+    <div class="mt-10 max-w-md mx-auto text-center text-gray-300 space-y-2">
+      <p><strong>Email:</strong> <a href="mailto:priyankawani890@gmail.com" class="underline hover:text-white">priyankawani890@gmail.com</a></p>
+      <p><strong>Mobile:</strong> <a href="tel:+918010092397" class="underline hover:text-white">8010092397</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/priyanka-wani-224193211/" target="_blank" class="underline hover:text-white">linkedin.com/in/priyanka-wani-224193211</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/priyankawani890" target="_blank" class="underline hover:text-white">github.com/priyankawani890</a></p>
+      <p><strong>Portfolio:</strong> <a href="https://priyankawani890.github.io/priyanka_portfolio/" target="_blank" class="underline hover:text-white">priyankawani890.github.io/priyanka_portfolio</a></p>
     </div>
   </div>
 </section>
+
 
 
     <footer class="py-8">
